@@ -24,7 +24,7 @@ The whole Log is saved inside a mongoDB database collection.
 
 ## Deployment
 
-The nightlog-common library requires a .env file with the following properties:
+lambdas execution environments must have the following properties defined:
 ```
 DATABASE_URL
 DATABASE_NAME
