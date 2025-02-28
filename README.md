@@ -42,10 +42,11 @@ cargo lambda deploy [--iam-role <role arn>] nightlog-<operation>
 ```
 ## Improvements
 In the future I would like to add the following:
-- Basic front-end
+- Basic front-end ✓
 - Separate observation date from insertion one; add modification date
 - Improve observation information, adding for example observer location, altitude, seeing ecc...
 - Add photography information and equipment for astrophotography
 - Add files management using S3 to upload photos or sketches
 - Add equipment management
+- Add filtering and limiting options in listing
 
